@@ -17,9 +17,7 @@ export const Options = styled.TouchableOpacity`
   align-items: center;
 `;
 
-export const Img = styled.Image`
-  font-size: 14px;
-`;
+export const Img = styled.Image``;
 
 export const Label = styled.Text`
   color: #fff;

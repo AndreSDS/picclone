@@ -12,6 +12,7 @@ import {
 } from "./styles";
 
 import Suggestions from "../../components/Suggestions";
+import Activities from "../../components/Activities";
 
 const HomeScreen = () => {
   return (
@@ -41,6 +42,7 @@ const HomeScreen = () => {
         </Header>
 
         <Suggestions></Suggestions>
+        <Activities></Activities>
       </Container>
     </Wrapper>
   );

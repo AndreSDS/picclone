@@ -54,7 +54,7 @@ const Sugestions = () => {
     <Container>
       {items.map((item) => (
         <Options key={item.key}>
-          <Img source={require(item.img)} />
+          <Img source={item.img} />
           <Label>{item.label}</Label>
         </Options>
       ))}
